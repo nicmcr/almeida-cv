@@ -86,7 +86,8 @@
 
     &__bullet {
         list-style: square inside;
-        margin-left: 1rem;
+        margin-left: 2rem;              // changed to 2 to fix spacing after adding below
+        list-style-position: outside;   // hanging indent is inline with main bullet
     }
 
     &__badges {
